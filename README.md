@@ -3,7 +3,7 @@
 DoggyWorld is a native Android application that utilizes a public REST API to display a list of dog breeds and their images. The app makes use of the "Dog API" provided by https://dog.ceo/dog-api/
 
 ## Demo
-![Screenshot_6](https://github.com/nisaefendioglu/DoggyWorld/assets/48391281/c03dbb5b-c876-4a63-8edc-a8ec372a1177)
+![Screenshot_6](https://github.com/nisaefendioglu/Doggy-World/assets/48391281/a86ff972-d7ec-434c-a417-bc9b4ce4d71b)
 
 ## Features
 
