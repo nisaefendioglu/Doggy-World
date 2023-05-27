@@ -1,6 +1,6 @@
 # Doggy World 🐕
 
-DoggyWorld is a native Android application that utilizes a public REST API to display a list of dog breeds and their images. The app makes use of the "Dog API" provided by https://dog.ceo/dog-api/.
+DoggyWorld is a native Android application that utilizes a public REST API to display a list of dog breeds and their images. The app makes use of the "Dog API" provided by https://dog.ceo/dog-api/
 
 ## Demo
 ![Screenshot_6](https://github.com/nisaefendioglu/DoggyWorld/assets/48391281/c03dbb5b-c876-4a63-8edc-a8ec372a1177)
@@ -36,7 +36,7 @@ DoggyWorld is a native Android application that utilizes a public REST API to di
 
 To run the DoggyWorld app on your local machine, follow these steps:
 
-1. Clone the repository: git clone https://github.com/nisaefendioglu/DoggyWorld.git
+1. Clone the repository: git clone https://github.com/nisaefendioglu/Doggy-World.git
 
 2. Open the project in Android Studio.
 
