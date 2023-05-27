@@ -1,21 +1,25 @@
-# Add project specific ProGuard rules here.
-# You can control the set of applied configuration files using the
-# proguardFiles setting in build.gradle.
-#
-# For more details, see
-#   http://developer.android.com/guide/developing/tools/proguard.html
+# Karıştırma
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-dontpreverify
+-verbose
 
-# If your project uses WebView with JS, uncomment the following
-# and specify the fully qualified class name to the JavaScript interface
-# class:
-#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
-#   public *;
-#}
+# Sınıf ve yöntem isimlerini karıştırma
+-keepattributes Signature
+-keepattributes *Annotation*
 
-# Uncomment this to preserve the line number information for
-# debugging stack traces.
-#-keepattributes SourceFile,LineNumberTable
+# Uygulama sınıfını koru
+-keep public class com.nisaefendioglu.doggyworld.MainActivity
 
-# If you keep the line number information, uncomment this to
-# hide the original source file name.
-#-renamesourcefileattribute SourceFile
+# Belirli sınıfları koru
+-keep public class com.example.appname.model.** { *; }
+
+# Kaynak ve asset dosyalarını koru
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+
+# Destek kütüphanelerini koru
+-keep class android.support.** { *; }
+-keep class androidx.** { *; }
